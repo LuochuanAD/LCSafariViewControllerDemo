@@ -15,6 +15,9 @@
 		800BB79C2312704400677AB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB79B2312704400677AB4 /* main.m */; };
 		800BB7A62312704400677AB4 /* LCSafariViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7A52312704400677AB4 /* LCSafariViewControllerDemoTests.m */; };
 		800BB7B12312704500677AB4 /* LCSafariViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7B02312704500677AB4 /* LCSafariViewControllerDemoUITests.m */; };
+		800BB7C22312A30400677AB4 /* LCActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7C12312A30400677AB4 /* LCActivity.m */; };
+		800BB7C62312B23D00677AB4 /* luochuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7C52312B23D00677AB4 /* luochuan.png */; };
+		800BB7C82312B34500677AB4 /* luochuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7C72312B34500677AB4 /* luochuan@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		800BB7AC2312704500677AB4 /* LCSafariViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCSafariViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		800BB7B02312704500677AB4 /* LCSafariViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSafariViewControllerDemoUITests.m; sourceTree = "<group>"; };
 		800BB7B22312704500677AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800BB7C02312A30400677AB4 /* LCActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCActivity.h; sourceTree = "<group>"; };
+		800BB7C12312A30400677AB4 /* LCActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActivity.m; sourceTree = "<group>"; };
+		800BB7C52312B23D00677AB4 /* luochuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luochuan.png; sourceTree = "<group>"; };
+		800BB7C72312B34500677AB4 /* luochuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luochuan@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +112,12 @@
 				800BB78D2312704300677AB4 /* AppDelegate.m */,
 				800BB78F2312704300677AB4 /* ViewController.h */,
 				800BB7902312704300677AB4 /* ViewController.m */,
+				800BB7C02312A30400677AB4 /* LCActivity.h */,
+				800BB7C12312A30400677AB4 /* LCActivity.m */,
 				800BB7922312704300677AB4 /* Main.storyboard */,
 				800BB7952312704400677AB4 /* Assets.xcassets */,
+				800BB7C52312B23D00677AB4 /* luochuan.png */,
+				800BB7C72312B34500677AB4 /* luochuan@2x.png */,
 				800BB7972312704400677AB4 /* LaunchScreen.storyboard */,
 				800BB79A2312704400677AB4 /* Info.plist */,
 				800BB79B2312704400677AB4 /* main.m */,
@@ -237,6 +248,8 @@
 			files = (
 				800BB7992312704400677AB4 /* LaunchScreen.storyboard in Resources */,
 				800BB7962312704400677AB4 /* Assets.xcassets in Resources */,
+				800BB7C62312B23D00677AB4 /* luochuan.png in Resources */,
+				800BB7C82312B34500677AB4 /* luochuan@2x.png in Resources */,
 				800BB7942312704300677AB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +278,7 @@
 				800BB7912312704300677AB4 /* ViewController.m in Sources */,
 				800BB79C2312704400677AB4 /* main.m in Sources */,
 				800BB78E2312704300677AB4 /* AppDelegate.m in Sources */,
+				800BB7C22312A30400677AB4 /* LCActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

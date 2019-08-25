@@ -18,6 +18,7 @@
 		800BB7C22312A30400677AB4 /* LCActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7C12312A30400677AB4 /* LCActivity.m */; };
 		800BB7C62312B23D00677AB4 /* luochuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7C52312B23D00677AB4 /* luochuan.png */; };
 		800BB7C82312B34500677AB4 /* luochuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7C72312B34500677AB4 /* luochuan@2x.png */; };
+		800BB7CA2312BD5000677AB4 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7C92312BD5000677AB4 /* example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		800BB7C12312A30400677AB4 /* LCActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCActivity.m; sourceTree = "<group>"; };
 		800BB7C52312B23D00677AB4 /* luochuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luochuan.png; sourceTree = "<group>"; };
 		800BB7C72312B34500677AB4 /* luochuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luochuan@2x.png"; sourceTree = "<group>"; };
+		800BB7C92312BD5000677AB4 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				800BB7C52312B23D00677AB4 /* luochuan.png */,
 				800BB7C72312B34500677AB4 /* luochuan@2x.png */,
 				800BB7972312704400677AB4 /* LaunchScreen.storyboard */,
+				800BB7C92312BD5000677AB4 /* example.png */,
 				800BB79A2312704400677AB4 /* Info.plist */,
 				800BB79B2312704400677AB4 /* main.m */,
 			);
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800BB7CA2312BD5000677AB4 /* example.png in Resources */,
 				800BB7992312704400677AB4 /* LaunchScreen.storyboard in Resources */,
 				800BB7962312704400677AB4 /* Assets.xcassets in Resources */,
 				800BB7C62312B23D00677AB4 /* luochuan.png in Resources */,

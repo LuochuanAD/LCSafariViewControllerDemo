@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800BB78E2312704300677AB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB78D2312704300677AB4 /* AppDelegate.m */; };
+		800BB7912312704300677AB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7902312704300677AB4 /* ViewController.m */; };
+		800BB7942312704300677AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7922312704300677AB4 /* Main.storyboard */; };
+		800BB7962312704400677AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7952312704400677AB4 /* Assets.xcassets */; };
+		800BB7992312704400677AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800BB7972312704400677AB4 /* LaunchScreen.storyboard */; };
+		800BB79C2312704400677AB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB79B2312704400677AB4 /* main.m */; };
+		800BB7A62312704400677AB4 /* LCSafariViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7A52312704400677AB4 /* LCSafariViewControllerDemoTests.m */; };
+		800BB7B12312704500677AB4 /* LCSafariViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 800BB7B02312704500677AB4 /* LCSafariViewControllerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		800BB7A22312704400677AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800BB7812312704300677AB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800BB7882312704300677AB4;
+			remoteInfo = LCSafariViewControllerDemo;
+		};
+		800BB7AD2312704500677AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800BB7812312704300677AB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 800BB7882312704300677AB4;
+			remoteInfo = LCSafariViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		800BB7892312704300677AB4 /* LCSafariViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCSafariViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800BB78C2312704300677AB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		800BB78D2312704300677AB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		800BB78F2312704300677AB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		800BB7902312704300677AB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		800BB7932312704300677AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800BB7952312704400677AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800BB7982312704400677AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800BB79A2312704400677AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800BB79B2312704400677AB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		800BB7A12312704400677AB4 /* LCSafariViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCSafariViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800BB7A52312704400677AB4 /* LCSafariViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSafariViewControllerDemoTests.m; sourceTree = "<group>"; };
+		800BB7A72312704500677AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800BB7AC2312704500677AB4 /* LCSafariViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCSafariViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		800BB7B02312704500677AB4 /* LCSafariViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCSafariViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		800BB7B22312704500677AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800BB7862312704300677AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800BB79E2312704400677AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800BB7A92312704500677AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800BB7802312704300677AB4 = {
+			isa = PBXGroup;
+			children = (
+				800BB78B2312704300677AB4 /* LCSafariViewControllerDemo */,
+				800BB7A42312704400677AB4 /* LCSafariViewControllerDemoTests */,
+				800BB7AF2312704500677AB4 /* LCSafariViewControllerDemoUITests */,
+				800BB78A2312704300677AB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800BB78A2312704300677AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800BB7892312704300677AB4 /* LCSafariViewControllerDemo.app */,
+				800BB7A12312704400677AB4 /* LCSafariViewControllerDemoTests.xctest */,
+				800BB7AC2312704500677AB4 /* LCSafariViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800BB78B2312704300677AB4 /* LCSafariViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				800BB78C2312704300677AB4 /* AppDelegate.h */,
+				800BB78D2312704300677AB4 /* AppDelegate.m */,
+				800BB78F2312704300677AB4 /* ViewController.h */,
+				800BB7902312704300677AB4 /* ViewController.m */,
+				800BB7922312704300677AB4 /* Main.storyboard */,
+				800BB7952312704400677AB4 /* Assets.xcassets */,
+				800BB7972312704400677AB4 /* LaunchScreen.storyboard */,
+				800BB79A2312704400677AB4 /* Info.plist */,
+				800BB79B2312704400677AB4 /* main.m */,
+			);
+			path = LCSafariViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		800BB7A42312704400677AB4 /* LCSafariViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				800BB7A52312704400677AB4 /* LCSafariViewControllerDemoTests.m */,
+				800BB7A72312704500677AB4 /* Info.plist */,
+			);
+			path = LCSafariViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		800BB7AF2312704500677AB4 /* LCSafariViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				800BB7B02312704500677AB4 /* LCSafariViewControllerDemoUITests.m */,
+				800BB7B22312704500677AB4 /* Info.plist */,
+			);
+			path = LCSafariViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800BB7882312704300677AB4 /* LCSafariViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800BB7B52312704500677AB4 /* Build configuration list for PBXNativeTarget "LCSafariViewControllerDemo" */;
+			buildPhases = (
+				800BB7852312704300677AB4 /* Sources */,
+				800BB7862312704300677AB4 /* Frameworks */,
+				800BB7872312704300677AB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCSafariViewControllerDemo;
+			productName = LCSafariViewControllerDemo;
+			productReference = 800BB7892312704300677AB4 /* LCSafariViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		800BB7A02312704400677AB4 /* LCSafariViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800BB7B82312704500677AB4 /* Build configuration list for PBXNativeTarget "LCSafariViewControllerDemoTests" */;
+			buildPhases = (
+				800BB79D2312704400677AB4 /* Sources */,
+				800BB79E2312704400677AB4 /* Frameworks */,
+				800BB79F2312704400677AB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800BB7A32312704400677AB4 /* PBXTargetDependency */,
+			);
+			name = LCSafariViewControllerDemoTests;
+			productName = LCSafariViewControllerDemoTests;
+			productReference = 800BB7A12312704400677AB4 /* LCSafariViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		800BB7AB2312704500677AB4 /* LCSafariViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800BB7BB2312704500677AB4 /* Build configuration list for PBXNativeTarget "LCSafariViewControllerDemoUITests" */;
+			buildPhases = (
+				800BB7A82312704500677AB4 /* Sources */,
+				800BB7A92312704500677AB4 /* Frameworks */,
+				800BB7AA2312704500677AB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				800BB7AE2312704500677AB4 /* PBXTargetDependency */,
+			);
+			name = LCSafariViewControllerDemoUITests;
+			productName = LCSafariViewControllerDemoUITests;
+			productReference = 800BB7AC2312704500677AB4 /* LCSafariViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800BB7812312704300677AB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = luochuan;
+				TargetAttributes = {
+					800BB7882312704300677AB4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					800BB7A02312704400677AB4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 800BB7882312704300677AB4;
+					};
+					800BB7AB2312704500677AB4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 800BB7882312704300677AB4;
+					};
+				};
+			};
+			buildConfigurationList = 800BB7842312704300677AB4 /* Build configuration list for PBXProject "LCSafariViewControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800BB7802312704300677AB4;
+			productRefGroup = 800BB78A2312704300677AB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800BB7882312704300677AB4 /* LCSafariViewControllerDemo */,
+				800BB7A02312704400677AB4 /* LCSafariViewControllerDemoTests */,
+				800BB7AB2312704500677AB4 /* LCSafariViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800BB7872312704300677AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800BB7992312704400677AB4 /* LaunchScreen.storyboard in Resources */,
+				800BB7962312704400677AB4 /* Assets.xcassets in Resources */,
+				800BB7942312704300677AB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800BB79F2312704400677AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800BB7AA2312704500677AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800BB7852312704300677AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800BB7912312704300677AB4 /* ViewController.m in Sources */,
+				800BB79C2312704400677AB4 /* main.m in Sources */,
+				800BB78E2312704300677AB4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800BB79D2312704400677AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800BB7A62312704400677AB4 /* LCSafariViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800BB7A82312704500677AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800BB7B12312704500677AB4 /* LCSafariViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		800BB7A32312704400677AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800BB7882312704300677AB4 /* LCSafariViewControllerDemo */;
+			targetProxy = 800BB7A22312704400677AB4 /* PBXContainerItemProxy */;
+		};
+		800BB7AE2312704500677AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 800BB7882312704300677AB4 /* LCSafariViewControllerDemo */;
+			targetProxy = 800BB7AD2312704500677AB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		800BB7922312704300677AB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800BB7932312704300677AB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		800BB7972312704400677AB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800BB7982312704400677AB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800BB7B32312704500677AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		800BB7B42312704500677AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800BB7B62312704500677AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCSafariViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.LCSafariViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800BB7B72312704500677AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCSafariViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.LCSafariViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		800BB7B92312704500677AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCSafariViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.LCSafariViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCSafariViewControllerDemo.app/LCSafariViewControllerDemo";
+			};
+			name = Debug;
+		};
+		800BB7BA2312704500677AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCSafariViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.LCSafariViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCSafariViewControllerDemo.app/LCSafariViewControllerDemo";
+			};
+			name = Release;
+		};
+		800BB7BC2312704500677AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCSafariViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.LCSafariViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LCSafariViewControllerDemo;
+			};
+			name = Debug;
+		};
+		800BB7BD2312704500677AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LCSafariViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.LCSafariViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LCSafariViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800BB7842312704300677AB4 /* Build configuration list for PBXProject "LCSafariViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800BB7B32312704500677AB4 /* Debug */,
+				800BB7B42312704500677AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800BB7B52312704500677AB4 /* Build configuration list for PBXNativeTarget "LCSafariViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800BB7B62312704500677AB4 /* Debug */,
+				800BB7B72312704500677AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800BB7B82312704500677AB4 /* Build configuration list for PBXNativeTarget "LCSafariViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800BB7B92312704500677AB4 /* Debug */,
+				800BB7BA2312704500677AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800BB7BB2312704500677AB4 /* Build configuration list for PBXNativeTarget "LCSafariViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800BB7BC2312704500677AB4 /* Debug */,
+				800BB7BD2312704500677AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 800BB7812312704300677AB4 /* Project object */;
+}

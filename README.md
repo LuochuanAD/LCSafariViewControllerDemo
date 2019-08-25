@@ -1,3 +1,3 @@
 # LCSafariViewControllerDemo
 
-![image](https://github.com)
+![image](https://raw.githubusercontent.com/LuochuanAD/LCSafariViewControllerDemo/master/LCSafariViewControllerDemo/example.png)
